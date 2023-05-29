@@ -1,0 +1,151 @@
+.div,
+.icon-1 {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.div {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 18px;
+  font-weight: 600;
+  justify-content: center;
+  width: 17.73px;
+  height: 22.8px;
+}
+.icon-1 {
+  border-radius: var(--br-981xl);
+  background-color: var(--color-dodgerblue);
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 7.093457221984863px 0;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.text-1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.01em;
+  color: var(--color-darkslategray);
+}
+.progress-bar,
+.stage-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stage-1 {
+  width: 80px;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.progress-bar {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 160px;
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 125.3%;
+  font-weight: 600;
+}
+.form-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-darkslategray);
+}
+.text1 {
+  position: relative;
+  text-transform: uppercase;
+}
+.secondary-button {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--color-salmon);
+  box-sizing: border-box;
+  height: 56px;
+  padding: var(--padding-3xs) var(--padding-23xl);
+}
+.button-container,
+.primary-button,
+.secondary-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.primary-button {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-mediumseagreen);
+  height: 56px;
+  padding: var(--padding-3xs) var(--padding-23xl);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.button-container {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--color-salmon);
+}
+.razorpay-icon {
+  position: relative;
+  width: 120px;
+  height: 42.69px;
+  object-fit: cover;
+}
+.form,
+.icon-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  width: 549px;
+  flex-direction: column;
+  padding: 32px var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 28px;
+}
+.coding-assignment,
+.content-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.content-container {
+  width: 1920px;
+  height: 1008px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 72px 102px 54.3121337890625px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: 326px;
+  background-image: url(/public/content-container@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.coding-assignment {
+  position: relative;
+  background-color: var(--color-white);
+  width: 140%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
